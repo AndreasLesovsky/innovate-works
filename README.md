@@ -6,7 +6,7 @@ Installation
 
 Am besten einfach über xampp oder einen anderen Webserver der PHP unterstützt hosten. Schritte, um das Projekt lokal zu installieren:
 
-Repository klonen: git clone https://github.com/andreaslesovsky/bilder-beschneiden.git
+Repository klonen: git clone https://github.com/andreaslesovsky/innovate-works.git
 
 Autoren
 
