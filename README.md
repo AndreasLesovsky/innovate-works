@@ -4,7 +4,9 @@ Bewerbungsformular mit Upload Funktion, Dateivorschau, Erfolgs- bzw. Fehlermeldu
 
 Installation
 
-Am besten einfach über xampp oder einen anderen Webserver der PHP unterstützt hosten. Schritte, um das Projekt lokal zu installieren:
+Am besten einfach über xampp oder einen anderen Webserver der PHP unterstützt hosten. Die GD Erweiterung muss in der php.ini aktiviert werden.
+
+Schritte, um das Projekt lokal zu installieren:
 
 Repository klonen: git clone https://github.com/andreaslesovsky/innovate-works.git
 
