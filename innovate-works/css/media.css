@@ -4,11 +4,11 @@
 
 @media screen and (min-width:calc(80rem + 0.1px)) {
     .banner {
-        background-image: url(../media/careers.jpg);
+        background-image: url(../media/austin-distel-wD1LRb9OeEo-unsplash_cropped.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
-        height: 35rem;
+        background-position: top left;
+        height: 60vh;
     }
 }
 
@@ -20,11 +20,11 @@
 
 @media screen and (max-width:80rem) {
     .banner {
-        background-image: url(../media/1280x0/careers.jpg);
+        background-image: url(../media/austin-distel-wD1LRb9OeEo-unsplash_cropped.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
-        height: 30rem;
+        background-position: top left;
+        height: 60vh;
     }
     button#menu-btn {
         display: flex;
@@ -101,7 +101,11 @@
 
 @media screen and (max-width:64rem) {
     .banner {
-        background-image: url(../media/1024x0/careers.jpg);
+        background-image: url(../media/1920x0/austin-distel-wD1LRb9OeEo-unsplash_cropped.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 50vh;
     }
     
 	
@@ -129,10 +133,6 @@
 /* max 48rem SM */
 
 @media screen and (max-width:48rem) {
-    .banner {
-        background-image: url(../media/768x0/careers.jpg);
-        height: 22.5rem;
-    }
     main {
         padding: 1rem 5rem;
     }
@@ -144,6 +144,15 @@
 
 /* max 36rem XS */
 @media screen and (max-width:36rem) {
+    header div.wrapper-inner {
+        padding-inline: 1.5rem 2rem;
+    }
+    header div.wrapper-inner > a svg {
+        transform: scale(0.75);
+    }
+    .banner {
+        height: 33vh;
+    }
     h1 {
         font-size: 1.5rem;
     }
@@ -151,7 +160,7 @@
         font-size: 1.25rem;
     }
     main {
-        padding: 1rem;
+        padding: 2rem;
     }
     footer div a img {
         max-width: 12rem;
@@ -170,7 +179,7 @@
     } */
     header .wrapper-inner a img:first-of-type,
     header .wrapper-inner a img:last-of-type {
-        width: 10rem;
+        width: 8rem;
     }
     i {
         font-size: 1.5rem;

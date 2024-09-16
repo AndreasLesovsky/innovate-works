@@ -205,12 +205,14 @@ nav ul li a span {
 .banner {
 	z-index: -500;
 	margin: 0 1rem;
+	top: 5.75rem;
 }
 
 main {
 	max-width: 80rem;
 	margin: auto;
 	padding: 1rem 5rem;
+	margin-top: 5.75rem;
 }
 main a {
 	color: var(--col-font);
