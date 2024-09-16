@@ -1,6 +1,6 @@
 Innovate Works
 
-Bewerbungsformular mit Upload Funktion, Dateivorschau, Erfolgs- bzw. Fehlermeldungen und Darkmode via Media Query(prefers-color-scheme: dark). Nach dem Upload werden die Dateien in entprechend benannten Ordnern abgelegt. Das Bild wird quadratisch zugeschnitten und die übrigen Formulareingaben werden in einer Textdatei abgelegt. Eine Bestätigungsmail nach dem Hochladen fehlt noch. Voll responsiv. Technologien: HTML, CSS, JavaScript, PHP 
+Bewerbungsformular mit Upload Funktion, Dateivorschau, Erfolgs- bzw. Fehlermeldungen und Darkmode via Media Query(prefers-color-scheme: dark). Nach dem Upload werden die Dateien in entprechend benannten Ordnern abgelegt. Das Bild wird quadratisch zugeschnitten und die übrigen Formulareingaben werden in einer Textdatei abgelegt. Eine Bestätigungsmail könnte man zukünftig noch ergänzen. Technologien: HTML, CSS, JavaScript, PHP 
 
 Installation
 
