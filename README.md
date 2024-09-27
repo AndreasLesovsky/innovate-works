@@ -1,10 +1,12 @@
 Innovate Works
 
-Bewerbungsformular mit Upload Funktion, Dateivorschau, Erfolgs- bzw. Fehlermeldungen und Darkmode via Media Query(prefers-color-scheme: dark). Nach dem Upload werden die Dateien in entprechend benannten Ordnern abgelegt. Das Bild wird quadratisch zugeschnitten und die übrigen Formulareingaben werden in einer Textdatei abgelegt. Eine Bestätigungsmail könnte man zukünftig noch ergänzen. Technologien: HTML, CSS, JavaScript, PHP 
+Der Schwerpunkt dieses Projekts liegt auf der technischen Umsetzung eines Bewerbungsformulars zur Optimierung des Bewerbungsprozesses. Bei diesem Projekt steht die Funktionalität des Bewerbungsformulars im Mittelpunkt, einschließlich der Umsetzung des Designs, der responsiven Gestaltung und der Integration eines Dark Modes.
+
+Das Formular ermöglicht das Hochladen von Fotos und PDF-Dateien. Eine Vorschaufunktion zeigt die hochgeladenen Dateien vor dem Absenden an. Die Dateien werden in entsprechenden Ordnern gespeichert, während die Formulareingaben in einer Textdatei gespeichert werden. Erfolgs- und Fehlermeldungen helfen dem Benutzer, den Prozess nachzuvollziehen und etwaige Fehler schnell zu beheben. Das Design orientiert sich an einer Unternehmenswebsite.
 
 Installation
 
-Am besten über xampp oder einen anderen Webserver der PHP unterstützt hosten. Die GD Erweiterung muss in der php.ini aktiviert werden.
+Über xampp oder einen anderen Webserver der PHP unterstützt hosten. Die GD Erweiterung muss in der php.ini aktiviert werden.
 
 Schritte, um das Projekt lokal zu installieren:
 
