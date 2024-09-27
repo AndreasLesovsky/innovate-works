@@ -98,6 +98,19 @@ if (count($_POST) > 0) {
 	<link rel="stylesheet" href="css/common.css">
 	<script src="https://kit.fontawesome.com/7933e77e42.js" crossorigin="anonymous"></script>
 	<script src="script.js"></script>
+	<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            <?php if ($msg): ?>
+                // Scrollen zur Kommentar-Sektion
+                const commentsSection = document.querySelector("main");
+                if (commentsSection) {
+                    commentsSection.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            <?php endif; ?>
+        });
+    </script>
 </head>
 
 <body>
