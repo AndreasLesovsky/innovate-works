@@ -115,7 +115,7 @@ if (count($_POST) > 0) {
 
 <body>
 	<header>
-		<div class="wrapper-inner">
+		<div class="inner-container">
 			<a href="#">
 				<svg width="60" height="60" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
 					<polygon points="100,10 180,100 100,190 20,100" fill="var(--col-main)" transform="rotate(70, 100, 100)" />
@@ -338,7 +338,7 @@ if (count($_POST) > 0) {
 		</form>
 	</main>
 	<footer>
-		<div class="wrapper-inner">
+		<div class="inner-container">
 			<div>
 				<h2>Kontaktieren Sie Uns</h2>
 				<ul>
@@ -369,13 +369,13 @@ if (count($_POST) > 0) {
 			<div>
 				<h2>Unternehmenszentrale</h2>
 				<p>
-					6875 Lorem Drive<br>
-					Ipsum, Ipsum, Lorem M7B 4K8<br>
-					Telefon +1 538 984 8787
+					Musterstraße 58<br>
+					4020 Linz Österreich<br>
+					Telefon +43 538 984 8787
 				</p>
 			</div>
 			<address>
-				©AL 2024. Alle Rechte vorbehalten.
+				©INNOVATE WORKS 2024. Alle Rechte vorbehalten.
 			</address>
 		</div>
 	</footer>
