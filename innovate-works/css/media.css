@@ -112,7 +112,7 @@
     main {
         padding: 1rem 3rem;
     }
-    footer .wrapper-inner {
+    footer .inner-container {
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto auto auto;
         grid-template-areas: 
@@ -144,10 +144,10 @@
 
 /* max 36rem XS */
 @media screen and (max-width:36rem) {
-    header div.wrapper-inner {
+    header div.inner-container {
         padding-inline: 1.5rem 2rem;
     }
-    header div.wrapper-inner > a svg {
+    header div.inner-container > a svg {
         transform: scale(0.75);
     }
     .banner {
@@ -177,8 +177,8 @@
     /* h1 span {
         display: inline;
     } */
-    header .wrapper-inner a img:first-of-type,
-    header .wrapper-inner a img:last-of-type {
+    header .inner-container a img:first-of-type,
+    header .inner-container a img:last-of-type {
         width: 8rem;
     }
     i {

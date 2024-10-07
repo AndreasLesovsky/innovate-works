@@ -17,7 +17,7 @@ header {
 	background-color: var(--col-bg);
 }
   
-header .wrapper-inner {
+header .inner-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -28,13 +28,13 @@ header .wrapper-inner {
 header>svg {
 	z-index: -100;
 }
-.wrapper-inner a {
+.inner-container a {
 	display: flex;
 	align-items: center;
 }
 
-header .wrapper-inner a img:first-of-type,
-header .wrapper-inner a img:last-of-type {
+header .inner-container a img:first-of-type,
+header .inner-container a img:last-of-type {
     max-width: 12rem;
 }
 header form {
@@ -394,7 +394,7 @@ footer {
 	font-size: 1rem;
 	background-color: var(--col-main);
 }
-footer .wrapper-inner {
+footer .inner-container {
 	max-width: 120rem;
 	margin: auto;
 	padding: 2rem;
